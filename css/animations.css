@@ -1,0 +1,48 @@
+@keyframes card-remove {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+    background-color: red;
+  }
+  to {
+    opacity: 0;
+    transform: rotatex(-100deg);
+    rotate: y -100deg;
+    scale: 0.5;
+  }
+}
+
+@keyframes card-task-complete {
+  from {
+    opacity: 1;
+    color: var(--text-color);
+  }
+  to {
+    opacity: 0;
+    color: var(--text-color);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}

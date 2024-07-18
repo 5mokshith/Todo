@@ -1,0 +1,91 @@
+.wrapper-calender {
+  width: 22rem;
+  padding: 1.5rem;
+  background-color: var(--primary-body-bg);
+  border-radius: 15px;
+  color: var(--text-color);
+  position: relative;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.372);
+}
+
+.calender .weeks,
+.calender .days {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1.2rem;
+  text-align: center;
+  justify-content: end;
+  align-content: center;
+  align-items: baseline;
+  justify-items: stretch;
+  padding: inherit;
+}
+.show-date > .current-date {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.icons {
+  margin: 0.5rem;
+  position: absolute;
+  right: 0;
+  bottom: -8px;
+}
+
+.icons > span {
+  font-size: 2rem;
+  cursor: pointer;
+  transition: all 200ms ease;
+  &:hover {
+    opacity: 0.5;
+  }
+  &:active {
+    opacity: 1;
+  }
+}
+
+.weeks li {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-color);
+}
+
+.days li {
+  list-style-type: none;
+  text-align: center;
+  transition: all 200ms ease;
+  font-weight: 500;
+  border-radius: 50px;
+  color: inherit;
+  &:hover {
+    background-color: rgb(0 0 0 /0.2);
+    scale: 1.5;
+  }
+}
+
+/* Used by the javascript */
+
+.previous-month {
+  color: rgb(0 0 0 /0.5) !important;
+  border-radius: 50px;
+}
+
+.present-date {
+  color: rgb(255 255 255/0.8);
+  background-color: var(--primary-cal-pink);
+  border-radius: 50px;
+  &:hover {
+    background-color: rgb(245, 65, 65) !important;
+    scale: 1.5;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.5s forwards;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s forwards;
+}
