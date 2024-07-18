@@ -49,7 +49,9 @@
   user-select: none;
   list-style-type: none;
 }
-
+*:focus {
+  outline: none;
+}
 body {
   margin: 0;
   padding: 0;
