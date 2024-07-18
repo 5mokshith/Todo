@@ -49,8 +49,12 @@
   user-select: none;
   list-style-type: none;
 }
-*:focus {
-  outline: none;
+button,
+button:focus,
+button:active {
+  outline: transparent;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
 }
 body {
   margin: 0;
