@@ -253,6 +253,7 @@ const checkLastDate = () => {
 };
 
 const setTheme = () => {
+  if (localStorage.getItem('theme') === null) {localStorage.setItem('theme','light');}
   localStorage.getItem("theme") === "light"
     ? document.body.setAttribute("data-dark-mode", "false")
     : document.body.setAttribute("data-dark-mode", "true");
@@ -262,7 +263,6 @@ const setTheme = () => {
     modeSwitcher.textContent = "Light Mode";
   }
 };
-
 modeSwitcher.onclick = () => {
   localStorage.getItem("theme") === "light"
     ? document.body.setAttribute("data-dark-mode", "true")
