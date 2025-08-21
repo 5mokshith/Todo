@@ -47,7 +47,7 @@ A modern, responsive Todo application built with vanilla JavaScript, HTML, and C
    - Navigate to `http://localhost:8000` (if using a local server)
    - Or just double-click `index.html` to open directly in your browser
 
-## 📖 How to Use
+##  How to Use
 
 ### Adding Tasks
 1. Enter a title for your task in the "Type Title here.." field
@@ -69,7 +69,7 @@ A modern, responsive Todo application built with vanilla JavaScript, HTML, and C
 - Click the "Dark Mode" button to toggle between light and dark themes
 - Your theme preference is saved and will persist across sessions
 
-## 🛠️ Project Structure
+##  Project Structure
 
 ```
 Todo/
