@@ -88,7 +88,7 @@ Todo/
 └── README.md            # Project documentation
 ```
 
-## 🎯 Key Features Explained
+##  Key Features Explained
 
 ### Local Storage
 The app uses browser's localStorage to persist your tasks and preferences, so you won't lose your data when you close the browser.
@@ -110,7 +110,7 @@ The interactive calendar allows you to:
 - Plan tasks for specific dates
 - Track your productivity over time
 
-## 🎨 Customization
+##  Customization
 
 The app is built with vanilla technologies, making it easy to customize:
 
@@ -119,20 +119,20 @@ The app is built with vanilla technologies, making it easy to customize:
 - **Layout**: Customize the responsive breakpoints in `media-queries.css`
 - **Functionality**: Extend features by modifying the JavaScript files
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
+##  Author
 
 **Mokshith**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@5mokshith](https://github.com/5mokshith)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Google Fonts for the beautiful typography
 - Material Symbols for the icon set
